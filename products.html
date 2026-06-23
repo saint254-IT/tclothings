@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>T Clothings — Products</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <a href="index.html" class="nav-brand">T Clothings</a>
+    <button class="nav-toggle" onclick="toggleMenu()" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="products.html" class="active">Products</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="page-header">
+      <h1>Our Collection</h1>
+      <p>We offer quality clothing for every style and occasion</p>
+    </section>
+
+    <section class="products-intro">
+      <p>We offer a carefully curated selection of clothing to suit every taste and budget:</p>
+      <ul class="clothing-list">
+        <li>👕 Casual T-Shirts &amp; Tops</li>
+        <li>👔 Smart Shirts &amp; Blouses</li>
+        <li>👗 Dresses &amp; Skirts</li>
+        <li>👖 Jeans &amp; Trousers</li>
+        <li>🧥 Jackets &amp; Coats</li>
+        <li>🩱 Sportswear &amp; Activewear</li>
+        <li>👘 Traditional &amp; Formal Wear</li>
+        <li>🧣 Accessories &amp; More</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 T Clothings. All rights reserved.</p>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById('navLinks').classList.toggle('open');
+    }
+  </script>
+</body>
+</html>
